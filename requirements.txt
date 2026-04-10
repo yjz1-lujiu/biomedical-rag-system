@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-classic
+langchain-text-splitters
+chromadb
+pypdf
+biopython
+dashscope
+python-dotenv

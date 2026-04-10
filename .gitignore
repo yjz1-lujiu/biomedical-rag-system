@@ -1,0 +1,29 @@
+# 环境变量与密钥
+.env
+*.key
+*.pem
+
+# 字节码与缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv
+
+# 数据库
+*.db
+*.sqlite3
+
+# 日志与临时文件
+*.log
+temp_pdfs/
+biomedical_rag_db/
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
