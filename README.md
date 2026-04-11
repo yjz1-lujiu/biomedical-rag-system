@@ -39,7 +39,6 @@
 | **向量数据库** | Chroma（多 Collection） |
 | **外部知识增强** | PubMed (Bio.Entrez) |
 
----
 
 biomedical-rag-system/
 ├── main.py # 主程序入口（多模态版）
@@ -51,10 +50,11 @@ biomedical-rag-system/
 └── temp_pdfs/ # 临时 PDF 存储目录（自动清理）
 
 
-## 🚀 快速开始
-### 1. 克隆项目
+🚀 快速开始
+ 1. 克隆项目
 git clone https://github.com/yjz1-lujiu/biomedical-rag-system.git
 cd biomedical-rag-system
+
 2. 安装依赖
 推荐使用 Python 3.10 及以上版本
 pip install -r requirements.txt
@@ -62,28 +62,23 @@ pip install -r requirements.txt
 
 3. 配置环境变量
 复制示例文件并填入你的密钥：
-
 cp .env.example .env
 编辑 .env 文件：
-
 DASHSCOPE_API_KEY=你的通义千问APIKey
 PUBMED_EMAIL=你的邮箱@example.com
-4. 运行应用
 
+4. 运行应用
 streamlit run main.py
 应用将在浏览器中自动打开（默认地址 http://localhost:8501）。
 
 📖 使用指南
 第一步：上传 PDF 文献
 在左侧边栏点击 “Browse files”，上传生物医药相关 PDF（支持批量）。
-
 勾选 “启用多模态解析（推荐）”。
-
 点击 “✅ 构建知识库”，系统将解析文档并建立多模态索引（约需 2~8 分钟）。
 
 第二步：选择功能或输入问题
 快捷按钮：
-
 🔍 实验方法定位 → 默认查询脂质体包封率测定方法。
 
 📝 综述框架 → 以“刺激响应型纳米药物递送系统”为例。
