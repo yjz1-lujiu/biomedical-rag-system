@@ -1,0 +1,12 @@
+streamlit
+langchain_community
+langchain_text_splitters
+langchain_core
+chromadb
+python-dotenv
+biopython
+networkx
+pypdf
+psycopg2-binary
+redis
+mineru

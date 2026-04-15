@@ -1,0 +1,32 @@
+# 缓存文件
+__pycache__/
+*.pyc
+
+# 数据库文件
+*.sqlite3
+*.rdb
+dump.rdb
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+*.env
+
+# 数据目录
+drug_repositioning_data/
+drug_repositioning_models/
+chat_histories/
+chat_histories_chroma/
+multimodal_rag_db/
+
+# 临时文件
+temp-*.rdb
+*.pdf
+
+# IDE文件
+.idea/
+.vscode/
+
+# 其他不需要上传的文件
